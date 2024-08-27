@@ -1,0 +1,23 @@
+body {
+  font-family: "Muli", sans-serif;
+}
+.allProjects {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  margin-top: 30px;
+  font-size: 28px;
+  padding: 10px;
+  background-color: rgb(255, 121, 121);
+  margin-left: 50px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #ffff;
+  width: 250px;
+}
+.H1heading {
+  text-align: center;
+}

@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  background-color: #2a2a72;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 100vh;
+}
+.main-container {
+  max-width: 900px;
+  /* background-color: bisque; */
+  width: 900px;
+  min-width: 400px;
+  margin: 20px;
+  margin-top: 200px;
+  /* padding: 40px; */
+}
+
+.main-container input {
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  font-size: 22px;
+  padding: 20px;
+  background-color: #4c2885;
+  color: rgb(253, 254, 254);
+  border: none;
+}
+.main-container:focus,
+.main-container:active {
+  border: none;
+}
+.main-container input:focus,
+.main-container input:active {
+  outline: none;
+}
+.content-section {
+  max-width: 800px;
+  background-color: #4c2885;
+  margin: 3rem;
+  display: flex;
+  padding: 50px;
+  border-radius: 20px;
+  color: #fff;
+  gap: 20px;
+}
+.content-section img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 10px solid #2a2a72;
+}
+.content-details {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex-grow: 1;
+}
+.github-person-name {
+  font-size: 32px;
+  font-weight: 700;
+}
+.github-person-details {
+  font-size: 18px;
+}
+.content-more-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 600;
+}
+.content-repos-details {
+  display: flex;
+  justify-content: space-between;
+}
+.content-repos-details span {
+  padding: 8px;
+  background-color: #2a2a72;
+}
+.content-repos-details span a {
+  text-decoration: none;
+  color: #fff;
+}

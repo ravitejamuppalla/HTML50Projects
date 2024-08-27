@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #777;
+}
+.main-header {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url("Images/Header Background.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+nav {
+  font-size: 1.5em;
+}
+.nav ul {
+  margin: 0;
+}
+nav li {
+  display: inline;
+}
+nav li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5em;
+  color: white;
+}
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+.about-band-image {
+  width: 250px;
+  height: 250px;
+  float: left;
+  border-radius: 50%;
+  margin: 30px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+.brand-name {
+  text-align: center;
+  color: white;
+  font-size: 4em;
+}
+.brand-name-large {
+  font-size: 5em;
+  padding: 40px;
+}
+.section-header {
+  text-align: center;
+  font-size: 3rem;
+  margin: 30px;
+  color: black;
+}
+.content-section p {
+  font-size: 20px;
+  /* font-size: 2rem; */
+}
